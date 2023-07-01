@@ -1,11 +1,11 @@
 import './App.css';
-import PriceCard from './pricecard';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Main from './MainComponent';
 
 function App() {
   return (
     <div className="App">
-       <PriceCard/>
+      <Main/>
     </div>
   );
 }
